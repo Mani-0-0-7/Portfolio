@@ -1,0 +1,52 @@
+.portfolio{
+    width: 100vw;
+    height: 100vh;
+    background-color: #051120;
+}
+.portfoliotag{
+    width: 100vw;
+    height: 20vh;
+    /* background-color: brown; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+} 
+.portfoliotag h1{
+    opacity: 0.2;
+    font-size: 90px;
+        color: rgb(67, 70, 70);
+  
+}
+.portfoliochild{
+    position: absolute;
+     height: auto;
+     width: auto;
+     top: 22%;
+     /* background-color: blueviolet; */
+     display: flex;
+     align-items: center;
+     justify-content: center;
+
+}
+.portfoliochild h3{
+        font-size: 25px;
+    font-weight: 500;
+    color: #FEC544;
+}
+.portunderline{
+       width: 12%;
+    height: 2px;
+    background-color: gray;
+    position: absolute;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.portunderline span{
+    position: absolute;
+    width: 80px;
+    height: 2px;
+    background-color: #FEC544;  
+}

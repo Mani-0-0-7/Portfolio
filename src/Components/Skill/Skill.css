@@ -1,0 +1,116 @@
+.skill{
+    height: auto;
+    width: 100vw;
+    background-color:  #0b1522;
+    /* background-color: aqua; */
+}
+.skilltag {
+    width: 100%;
+    height: 20%;
+    /* background-color: blue; */
+    position: relative;
+    margin-top: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.skilltag h1{
+    opacity: 0.2;
+    font-size: 90px;
+    color: rgb(67, 70, 70);
+}
+.skilltag2 {
+    position: absolute;
+    height: auto;
+    width: auto;
+    /* background-color: brown; */
+    top: 23%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+}
+.skilltag2 h2{
+    color: #FEC544;
+        font-size: 25px;
+    font-weight: 500;
+}
+.skillline{
+    position: absolute;
+    width: 12%;
+    height: 2px;
+    background-color: gray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+.skillline span{
+    width: 80px;
+    height: 2px;
+    background-color: #FEC544;
+
+}
+
+.skillinfo {
+ width: 100vw;
+ height: 60vh;
+ /* background-color: aqua;   */
+ display: flex;
+ align-items: center;
+ justify-content: center; 
+}
+.skilldiv {
+    width: 85%;
+    height: 100%;
+    background-color:orangered;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.skilldetails{
+    width: 50%;
+    height: 100%;
+    background-color: chartreuse;
+    text-align: justify;
+}
+.skilldetails h2{
+    font-size: 30px;
+
+}
+.skilldetails p{
+    font-size: 20px;
+    font-weight: 500;
+    padding-top: 20px;
+    line-height: 30px;
+}
+
+.skillbar {
+    width: 50%;
+    height: 100%;
+    background-color: pink;
+    margin-left: 40px;
+}
+
+.skillbarcontainer{
+    width: 100%;
+    height: 100%;
+    background-color: aqua;
+
+}
+.skillbaritems{
+    width: 100%;
+    height: 100%;
+    background-color: blue;
+
+}
+.progressbarline{
+    width: 100%;
+    height: 3px;
+    background-color: chartreuse;
+    position: relative;
+    top: 2px;
+}
+

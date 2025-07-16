@@ -1,0 +1,67 @@
+
+ .navpage{
+    width: 100vw;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    background-color: black;
+ }
+ .navcontainer{
+   width: 85%;
+   height: 100%;
+   display: flex;
+   align-items: center;
+ /* background-color: aqua; */
+ }
+.logo {
+   width: 13%;
+   height: 100%;
+    object-fit: cover;
+    /* background-color: #ffff00; */
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+
+ .navbar{
+    height: 100%;
+    width: 59%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;  
+    /* background-color: brown; */
+    margin-left: 12%; 
+ }
+
+
+ .navbar h3{
+   color: #FDFEFF;
+     font-weight: 500;
+   font-size: 20px;
+ }
+.phonebar{
+   width: 13%;
+   height: 100%;
+   display: flex;
+   align-items: center;
+   /* background-color: yellow; */
+   margin-left: 40px;
+}
+.phoneimg{
+   font-size: 23px;
+   color: #FDFEFF;
+   margin-top: 5px;
+   
+}
+.phonebar h3{
+   padding-left: 5px;
+   color: #FCB544;
+   font-weight: 500;
+   font-size: 20px;
+}
+
+
+

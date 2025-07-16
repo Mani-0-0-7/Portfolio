@@ -1,0 +1,185 @@
+.about{
+height: auto;
+width: 100vw;
+background-color: #051120;
+/* background-color: aqua; */
+
+}
+
+.tag{
+    height: 25%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 80px;
+    position: relative;
+    /* background-color:darkmagenta; */
+
+}
+
+.tag h1 {
+        font-size: 90px;
+        opacity: 0.2;
+        color: rgb(67, 70, 70);
+}
+.tag1 {
+    height: auto;
+    width: auto;
+   position: absolute;
+   top: 22%;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   /* background-color: aqua; */
+}
+.tag1 h3{
+    font-size: 25px;
+    font-weight: 500;
+    color: #FEC544;
+}
+.underline{
+    width: 12%;
+    height: 2px;
+    background-color: gray;
+    position: absolute;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.underline span{
+    position: absolute;
+    width: 80px;
+    height: 2px;
+    background-color: #FEC544;  
+}
+
+
+.biocon{
+    height: auto;
+    width: 100vw;
+    /* background-color: blueviolet; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+}
+.bio{
+
+width: 85%;
+height: 100%;
+/* background-color: #fce544; */
+display: flex;
+align-items: center;
+justify-content: center;
+}
+.biodata{
+    width: 45%;
+    height: 100%;
+    /* background-color: crimson; */
+    object-fit: cover;
+    display: flex;
+}
+.aboutimg{
+    width: 600px;
+    height: 610px;
+    /* background-color: aqua; */
+overflow: hidden;
+}
+.aboutimg img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.bioinfo{
+width: 55%;
+height: 100%;
+/* background-color: chartreuse; */
+margin-left: 50px;
+overflow: hidden;
+}
+.biodetails{
+    width: 100%;
+    height: 30%;
+    /* background-color: maroon; */
+    text-align: justify;
+
+}
+.biodetails h1 {
+    color: #FEFDFF;
+}
+.biodetails h2{
+padding-top:10px ;
+color: #FEC544;
+
+}
+
+.biodetails p{
+    line-height: 25px;
+    font-size: 17px;
+    padding-top: 10px;
+    font-weight: 500;
+    color: #A9ADB8;
+}
+.bioinformation {
+    width: 100%;
+    height: 60%;
+    /* background-color: blue; */
+    overflow: hidden;
+    display: flex;
+    margin-top: 10px;
+}
+.cvdetails{
+    width: 20%;
+    height: 100%;
+    /* background-color: aqua; */
+    text-align: justify;
+    line-height: 50px;
+overflow: hidden;
+}
+.cvdetails h3 {
+    color: #A9ADB8;
+    font-weight: 500;
+}
+.cvinfo{
+    width: 40%;
+    height: 100%;
+    /* background-color: coral; */
+    text-align: justify;
+    line-height: 50px;
+    display: flex;
+    justify-content: space-between;
+ overflow: hidden;  
+
+}
+.symbol h3 {
+    color: #A9ADB8;
+}
+.infodetails h3 {
+    color: #A9ADB8;
+    font-weight: 500;
+}
+
+ .bioinfo button {
+    height: 10%;
+     display: flex;
+     justify-content: flex-start;
+     border-radius: 25px;
+     padding: 10px 35px;
+     margin-top: 40px;
+     background-color: #FEC544;
+     color: black;
+     border: #FEC544;
+     font-size: 17px;
+}
+ 
+
+
+
+
+
+
+
+
